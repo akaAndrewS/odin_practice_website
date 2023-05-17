@@ -11,6 +11,6 @@ https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab0
 
 The implementation of flexbox and the images chosen were of my design.
 All pictures were taken from the royalty-free section of pixabay at:
-https://pixaby.com
+https://pixabay.com
 
 THIS PROJECT WAS MADE FOR EDUCATIONAL PURPOSES.
