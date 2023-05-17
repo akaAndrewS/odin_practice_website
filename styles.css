@@ -1,5 +1,3 @@
-/* FIXME ---- finish content
-
 .header, .introduction, .footer {
     background-color: #1F2937;
 }
@@ -9,6 +7,35 @@
     color: #F9FAF8;
 }
 
+.links, .introduction-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.introduction-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+button, .call-to-action {
+    background-color: #3882F6;
+    color: white;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
 .quote {
     background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
 }
