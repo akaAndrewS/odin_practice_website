@@ -5,7 +5,7 @@ body {
     flex-direction: column;
 }
 
-.header, .introduction, .information, .quote, .call-to-action, .footer {
+.header, .introduction, .information, .quote, .signup, .footer {
     padding: 0 150px;
 }
 
@@ -61,7 +61,7 @@ a {
     flex-direction: column;
 }
 
-.introduction, .information, .quote, .call-to-action {
+.introduction, .information, .quote, .signup {
     height: 500px;
 }
 
@@ -144,4 +144,38 @@ button, .call-to-action {
     align-self: flex-end;
     font-size: 25px;
     font-weight: 800;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border-radius: 12px;
+    padding: 50px;
+    gap: 100px;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signup-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.signup-button {
+    border-color: white;
+    border: 2.5px solid;
+    border-radius: 12px;
 }
