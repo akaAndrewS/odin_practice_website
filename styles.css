@@ -1,3 +1,10 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 .header, .introduction, .footer {
     background-color: #1F2937;
 }
@@ -7,10 +14,27 @@
     color: #F9FAF8;
 }
 
-.links, .introduction-subtext {
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+
+.introduction-subtext {
     font-size: 18px;
     color: #E5E7EB;
+}
 
+.body {
+    flex: 1;
+}
+
+.introduction, .information, .quote, .call-to-action {
+    height: 500px;
 }
 
 .introduction-title {
